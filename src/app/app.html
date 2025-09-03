@@ -1,8 +1,10 @@
 <main>
-    <nav>
+    <nav *ngIf = "visivel" >
         <app-menu-estudos></app-menu-estudos>
     </nav>
     <div [ngClass] = "'main'">
+        <div [ngClass] = "'botao_invisivel'" (click)="menu()"></div>
+        <p> {{ visivel }}</p>
         <router-outlet></router-outlet>
     </div>
 </main>

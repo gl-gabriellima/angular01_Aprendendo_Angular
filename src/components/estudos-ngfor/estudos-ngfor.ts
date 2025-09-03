@@ -15,7 +15,8 @@ export class EstudosNgfor {
     { nome: 'Gabriel', idade: 20 },
     { nome: 'Ana', idade: 25 },
     { nome: 'Lucas', idade: 30 },
-    { nome: 'Lima', idade: 20}
+    { nome: 'Lima', idade: 20},
+    { nome: 'Lima', idade: 50}
   ];
 
 }

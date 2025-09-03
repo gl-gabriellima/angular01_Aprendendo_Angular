@@ -24,7 +24,7 @@ export class EstudosEventos {
         this.variavel1 = "Esta dentro"
       }
       else{
-        this.variavel1 = "Não clicou"
+        this.variavel1 = "Esta fora"
       }
     }
 }

@@ -10,7 +10,11 @@ import { CommonModule } from '@angular/common';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('Angular_03');
+  visivel = true
+    menu(){
+      this.visivel = !this.visivel
+    }
+
   
   mensagemRecebida: string = '';
 
