@@ -68,3 +68,21 @@
 
 ##### Sintaxe base:
 -   <elemento *ngFor="let item of lista">{{ item }}</elemento>
+
+
+## Eventos
+-   Os eventos são parecidos com oq acontece em Js/html puro,
+-   O Método fica na classe de JS do componente
+### Sintaxe base:
+-   (evento) = "METODO()"
+
+### Usabilidade:
+
+1.  Eventos de DOM (Template Events) 
+    -   Esses são eventos nativos do HTML que você pode capturar diretamente no template usando a sintaxe 
+2. Event Binding 
+    -   Metodo do Js que corresponde o evento acionado no HTML
+
+3. Custon Events com @Output
+    - manipular o component pai com evento filho
+    - Emissão de eventos para componentes pais

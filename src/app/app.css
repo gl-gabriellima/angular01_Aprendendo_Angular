@@ -7,20 +7,20 @@ main{
 
 .main{
     overflow: hidden;
-    width: 85vw;
+    width: 80vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    
+    background-color: antiquewhite;
 }
 
 nav{
-    width: 15vw;
+    width: 20vw;
     height: 100vh;
     display: flex;
     align-items: center;
+    background-color: aliceblue;
 
 }

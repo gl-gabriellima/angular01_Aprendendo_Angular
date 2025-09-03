@@ -1,5 +1,5 @@
 .menu{
-    width: 15vw;
+    width: 20vw;
     height: 80vh;
     background-color: black;
     border-bottom-right-radius:30px;
@@ -21,4 +21,8 @@ a{
     margin: 20px;
     font-family: BancoDoBrasil Titulos;
     font-weight: 600;
+}
+
+.active {
+    background-color: aquamarine;
 }

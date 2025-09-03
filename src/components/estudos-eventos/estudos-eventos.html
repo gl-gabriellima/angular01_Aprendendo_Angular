@@ -1,0 +1,9 @@
+<div [ngClass] = "'container'">
+    <div [ngClass] = "'es_titulo'">
+        <h1>Estudos 03: Estudando Eventos em Angular</h1>
+    </div>
+    <div [ngClass] = "'corpo' ">
+        <div [ngClass] = "'card card_ativo'" (click)= "teste()"> {{ variavel }} </div>
+        <div [ngClass] = "'card card_ativo'" (mouseover)= "teste1()"> {{ variavel1 }} </div>
+    </div>
+</div>
