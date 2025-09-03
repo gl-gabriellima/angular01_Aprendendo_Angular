@@ -1,0 +1,43 @@
+.container{
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+    background-color: rgb(230, 126, 30);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.es_titulo{
+    background-color: rgb(10, 129, 90);
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+.corpo{
+    width: 95%;
+    gap: 10px;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: BancoDoBrasil Titulos;
+    border-radius: 20px;
+}
+
+.card_ativo{
+    background-color: rgb(58, 141, 9);
+}
+.card_inativo{
+    background-color: rgb(230, 36, 1);
+}

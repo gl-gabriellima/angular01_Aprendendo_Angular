@@ -1,0 +1,25 @@
+<div [ngClass] = "'container'">
+    <div [ngClass] = "'es_titulo'">
+        <h1>Estudos 01: {{ titulo }}</h1>
+    </div>
+    <div [ngClass] = "'corpo' ">
+        <h2>1. Adicionando Classe simples:</h2>
+        <div [ngClass] ="'card card_ativo'"></div>
+
+        <h2>2. Adicionando Classe com condicional e evento de click:</h2>
+        <div [ngClass] = "{ card: true,'card_ativo': estaAtivo, 'card_inativo': !estaAtivo }" (click)="alternandoCard()">
+            <p> {{ estaAtivo }} </p>
+        </div>
+
+        <h2>3. Adicionando Classe com interpolação (operador Ternario)</h2>
+        <div [ngClass] = "x == 20 ? ' card card_ativo' : ' card card_inativo'">
+            <p> {{ x }} </p>
+        </div>
+
+        <h2>4. Adicionando Classe com função JS funções </h2>
+        <div [ngClass] = "getClasseCard()">
+            <p> {{ x }} </p>
+        </div>
+
+    </div>
+</div>

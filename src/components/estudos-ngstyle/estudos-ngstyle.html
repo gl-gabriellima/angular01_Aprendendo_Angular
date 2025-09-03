@@ -1,0 +1,19 @@
+<div [ngClass] = "'container'">
+    <div [ngClass] = "'es_titulo'">
+        <h1>Estudos 01: {{ titulo }} (NgStyle)</h1>
+    </div>
+    <div [ngClass] = "'corpo' ">
+        <h2>1. Adicionando Estilo Básico:</h2>
+        <div [ngStyle] = "{ 'background-color': 'blue' }"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint animi ipsam aperiam mollitia dicta laborum accusantium magni. Rerum eaque natus adipisci deleniti optio ipsa, iure labore, quaerat quis eos commodi.</div>
+
+        <h2>2. Adicionando Multiplos estilos:</h2>
+        <div [ngStyle] = "{ 'background-color': 'yellow', 'color':'red' }"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint animi ipsam aperiam mollitia dicta laborum accusantium magni. Rerum eaque natus adipisci deleniti optio ipsa, iure labore, quaerat quis eos commodi.</div>
+
+        <h2>3. Estilo Dinâmica com variaveis Js:</h2>
+        <div [ngStyle] = "{ 'background-color': 'yellow', 'font-size': tamanho + 'px'}"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint animi ipsam aperiam mollitia dicta laborum accusantium magni. Rerum eaque natus adipisci deleniti optio ipsa, iure labore, quaerat quis eos commodi.</div>
+
+        <h2>4. Adicionando Estilo condicional (Estrutura ternário)</h2>
+        <div [ngStyle] = "{ 'background-color': verdade ? 'green': 'red' }"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint animi ipsam aperiam mollitia dicta laborum accusantium magni. Rerum eaque natus adipisci deleniti optio ipsa, iure labore, quaerat quis eos commodi.</div>        
+    </div>
+</div>
+

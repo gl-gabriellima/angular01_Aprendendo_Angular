@@ -1,0 +1,23 @@
+<div [ngClass] = "'container'">
+    <div [ngClass] = "'es_titulo'">
+        <h1>Estudos 03: Estudando Diretiva de Condição (NgIf)</h1>
+    </div>
+    <div [ngClass] = "'corpo' ">
+        <h2>1. Exemplo Simples com variavel booleana</h2>
+        <div *ngIf="condicao" [ngClass]="'card'"></div>
+        
+        <h2>2. Exemplo Simples com expressão condicional</h2>
+        <div *ngIf="idade >=18" [ngClass]="'card card_ativo'">Maior de Idade: {{ idade }}</div>
+        <div *ngIf="idade <18" [ngClass]="'card card_inativo'">Menor de idade: {{ idade }}</div>
+        
+        <h2>3. Exemplo com then/else e ng-template</h2>
+        <div *ngIf="carregado; then conteudo; else carregando"></div>
+            <ng-template #conteudo>
+                <p>Os dados foram carregados com sucesso.</p>
+            </ng-template>
+
+            <ng-template #carregando>
+            <p>Carregando...</p>
+            </ng-template>
+    </div>
+</div>

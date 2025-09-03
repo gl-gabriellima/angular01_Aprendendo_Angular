@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #92a2b4;
+}
+
+
+.main{
+    overflow: hidden;
+    width: 85vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+nav{
+    width: 15vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}

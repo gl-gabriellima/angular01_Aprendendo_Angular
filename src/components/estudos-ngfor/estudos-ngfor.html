@@ -1,0 +1,11 @@
+<div [ngClass] = "'container'">
+    <div [ngClass] = "'es_titulo'">
+        <h1>Estudos 03: Estudando Diretiva de Condição (NgFor)</h1>
+    </div>
+    <div [ngClass] = "'corpo' ">
+        <div [ngClass]="'card card_ativo'" *ngFor=" let item of pessoas">
+            <p>Nome: {{ item.nome }}</p>
+            <p>Idade: {{ item.idade }} anos</p>
+        </div>
+    </div>
+</div>
